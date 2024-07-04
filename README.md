@@ -26,16 +26,6 @@ Set up the Flask application by configuring the secret key and upload folder in 
 app.secret_key = 'your_secret_key_here'
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 
-Usage
-Running the Application
-Start the application by executing:
-
-python app.py
-
-The application will be accessible at http://localhost:5000.
-
-```markdown
-
 ### Running the Application
 Start the application by executing:
 ```sh
