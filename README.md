@@ -35,36 +35,6 @@ python app.py
 The application will be accessible at http://localhost:5000.
 
 ```markdown
-# Jira Revoker
-
-## Overview
-Jira Revoker is a Flask-based web application designed to manage user permissions in Jira by allowing administrators to upload a CSV file containing user information, process it, and revoke permissions as needed.
-
-## Features
-- **Upload CSV**: Users can upload a CSV file with user details.
-- **Revoke Permissions**: Automatically revokes permissions for users listed in the uploaded CSV file.
-- **Results Display**: Shows the outcome of the revoke operation in a tabulated format on the web interface.
-
-## Installation
-
-### Prerequisites
-- Python 3.6 or higher
-- pip
-
-### Dependencies
-Install the required dependencies by running:
-```sh
-pip install -r requirement.txt
-```
-
-### Configuration
-Set up the Flask application by configuring the secret key and upload folder in [`app.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Fmmiftach%2FDocuments%2FCode%2Fpythonanywhere%2Ffipiutif%2Fapp.py%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/mmiftach/Documents/Code/pythonanywhere/fipiutif/app.py"):
-```py
-app.secret_key = 'your_secret_key_here'
-app.config['UPLOAD_FOLDER'] = 'uploads/'
-```
-
-## Usage
 
 ### Running the Application
 Start the application by executing:
